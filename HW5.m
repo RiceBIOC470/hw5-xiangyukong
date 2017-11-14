@@ -1,4 +1,14 @@
 %HW5
+%GB comments
+%1a 70 No mask provided in repository. 
+%1b 75 The final mask output only displays a fraction of the total cells. Your mask image appears to only capture the cells that were overlapped in your original mask. You need to create a new mask that incorporates your new watershed mask with the original mask.   
+%1c 70 No mask provided. Can’t grade something that isn’t submitted when asked. 
+%1d 75 Same problem as 1b. 
+%2yeast: 10 Your script doesn’t import mask files. I had to replace your mask import function with a h5read function to properly import the mask. There is also very little effort to create well defined masks. 
+%2worm: 10 same problem as 2yeast
+%2bacteria: 10 same problem as 2yeast
+%2phase: 10 same problem as 2yeast
+%Overall: 41
 
 % Note. You can use the code readIlastikFile.m provided in the repository to read the output from
 % ilastik into MATLAB.
